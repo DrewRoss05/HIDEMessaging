@@ -248,7 +248,7 @@ class ContactFrame(ttk.Frame):
 
     def edit(self):
         name = self.usr_contacts.get(ACTIVE)
-        edit_win = ThemedTk(theme=self.user.prefs['theme'])
+        edit_win = ThemedTk(theme={'light': 'breeze', 'dark': 'equilux'}[self.user.prefs['theme']])
         edit_win.title(name)
         edit_win.resizable(False, False)
         ContactEditFrame(edit_win, self, name, self.contact_info[self.usr_contacts.get(ACTIVE)]).grid(row=0, column=0)
