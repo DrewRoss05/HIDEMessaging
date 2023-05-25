@@ -35,7 +35,24 @@ HIDE will officially support using proxy servers to both recieve messages offlin
 **Proxy Address:** This field is used to input the IP address of the user's proxy.<br>
 **Proxy Port:** This field is used to input the TCP port that the user's proxy uses.
 <br><br><br>
+
 # Using HIDE Messaging
 The main disadvantage of HIDE Messaging is that it can be somewhat unintuitive to use at times, so, this section of the FAQ will serve as the "instruction manual"
+## Connecting to peers:
+There are two ways to connect to another user, the first, and simpler of the two is done through the Contact menu. The alternative is done through the Connect menu. 
+### Contact Menu:
+![Screenshot from 2023-05-25 09-06-18](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/e30ad9fa-e238-4a5d-8f69-c29b9cfdb3aa)<br>
+This menu is used to edit or connect to one's saved contacts, to connect to a contact, simply select their username and press connect, if they are online, a new chat window will open, allowing one to communicate with them.
+### Connect menu:
+![Screenshot from 2023-05-25 09-05-39](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/0f546b9c-b3e4-4f19-b96b-abe004aac5e8)<br>
+This menu is used to connect to user's that aren't saved in contacts. To connect to such a user, one must type their IP Address into the "IP Address" entry. Currently, inputing ID's does nothing, and neither does toggling "Connect via node." In the future, it will be possible to select "Connect via node" and input the ID of the user one would like to connect to, but this functionality has yet to be built.
+## Messaging peers 
+Once you have established a connection with another user, the following tab will appear (Peer's username is censored for hopefully obvious reasons)<br>![Example](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/93ccad45-e467-44cf-a8be-5727a6f2ec44)<br>
+### Sending Messages:
+Sending messages is straightforward, to send a message, simply type your message into the input, and press the Enter key.
+### Chat Commands:
+In addition to being able to send messages in the messaging window, there are a few commands that users can input. To input a command, one must simply insert >[COMAND NAME]. As  
+
+
 
 
