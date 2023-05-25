@@ -9,7 +9,7 @@ RSA4096, and AES256 for cryptographic primitives. HIDE's intended use case is fo
 
 # Installation
 The HIDE Installer, in addition to installing HIDE messaging creates the local files for the user's prfile based on a seed. In the
-future, this seed will be used for account recovery. When running the HIDE Installer, you are greeted with the following GUI:
+future, this seed will be used for account recovery. When running the HIDE Installer, you are greeted with the following GUI:<br>
 ![Screenshot from 2023-05-25 08-18-40](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/0a3251f3-e12f-4455-97aa-d907bc1671c4)
 ## What do each of the fields mean?
 ### Simple User Account Information
