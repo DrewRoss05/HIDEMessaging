@@ -30,11 +30,12 @@ Nodes will act as a phonebook of that allows users to search for eachother by ei
 ### Installation Settings:
 **"Where would you like to store HIDE?":** Allows the user to choose where on their computer they'd like to store HIDE Messaging.<br>
 **"Where would you like to store your seed file?":** Allows the user to choose where to store the seed file that is used for account creation and recovery.<br>
-### Proxy Setting (optional):
+### Proxy Settings (optional):
 HIDE will officially support using proxy servers to both recieve messages offline, and protect the user's identity. <br><br>
 **Proxy Address:** This field is used to input the IP address of the user's proxy.<br>
 **Proxy Port:** This field is used to input the TCP port that the user's proxy uses.
 <br><br><br>
-#Using HIDE Messaging
+# Using HIDE Messaging
+The main disadvantage of HIDE Messaging is that it can be somewhat unintuitive to use at times, so, this section of the FAQ will serve as the "instruction manual"
 
 
