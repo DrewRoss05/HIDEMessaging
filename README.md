@@ -62,6 +62,13 @@ Each of these commands can also be used by pressing their respective button in t
 As mentioned above, one can store encrypted archives of messages, these messages are encrypted with an AES256 key that's generated based on the user's password. To view these archive, one must go the "Etc." tab and select "Archive Viewer" then for the archive type, select "messages" and select the name of the user who they'd like to view archives of.<br>![Screenshot from 2023-05-25 11-20-32](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/ea01ced7-8cd4-4f92-993d-9ecfca7b016e)
 ### HIDE Logs:
 In addition to storing archives of chats when requested, HIDE automatically stores encrypted logs of all network activity from the app's usage, these logs can be accessed via the afformentioned Archive View by selecting "logs" instead of "messages" for the archive type.
+### Graphical Settings:
+HIDE's user experience can, to an extent, be configured by the user, this can be done by going to the "Etc." tab and selecting "Settings."As of v0.1.0, there are three settings users can change:<br>
+- **Theme:** Changes the color scheme of the app, currently, there are two themes available, light, and dark. These themes corrospond to ttkthemes's "Breeze" and "Equilux themes respectively.
+- **Notification Sound:** This drop down allows the user to select any .wav or .mp3 file in the "media/notifications" folder, HIDE comes with three, however users are free to add their own. The notification sound will play when another user contacts you.
+- **Message Font:** This entry allows you to select which font messages, logs, and archives are displayed in.[](url)
+![Screenshot from 2023-05-25 11-26-32](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/31cd15d1-a0b9-4fc2-8305-da47aa9db168)
+
 
 
 
