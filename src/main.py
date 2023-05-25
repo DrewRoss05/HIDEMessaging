@@ -14,6 +14,8 @@ from playsound import playsound
 
 from time import sleep
 
+from sys import exit
+
 from utils import userutils as uu
 from utils import netutils as nu
 
