@@ -7,7 +7,14 @@ HIDE Messsaging is a free and open-source peer-to-peer messaging application. It
 RSA4096, and AES256 for cryptographic primitives. HIDE's intended use case is for individuals or small orginizations who would like secure, unmonitored communication over the internet.
 <br><br><br>
 
-# Installation
+# Build Instructions:
+As of v0.1.0, there is not yet an "official" compiled application, so for the time being, you must run the install.py script which will create a user profile in, and move the HIDE source code to a choosen directory. Theoretically from here, one could use pyinstaller to create a compiled application. Though, the way it has been used for test has been simply running main.py.
+To ensure that HIDE will run on your system, make sure the following packages are installed:
+- pycryptodome
+- ttkthemes 
+- playsound
+
+# Using the HIDE Installer
 The HIDE Installer, in addition to installing HIDE messaging creates the local files for the user's prfile based on a seed. In the
 future, this seed will be used for account recovery. When running the HIDE Installer, you are greeted with the following GUI:<br>
 ![Screenshot from 2023-05-25 08-18-40](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/0a3251f3-e12f-4455-97aa-d907bc1671c4)
