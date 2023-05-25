@@ -35,9 +35,8 @@ HIDE will officially support using proxy servers to both recieve messages offlin
 **Proxy Address:** This field is used to input the IP address of the user's proxy.<br>
 **Proxy Port:** This field is used to input the TCP port that the user's proxy uses.
 <br><br><br>
-
 # Using HIDE Messaging
-The main disadvantage of HIDE Messaging is that it can be somewhat unintuitive to use at times, so, this section of the FAQ will serve as the "instruction manual"
+The main disadvantage of HIDE Messaging is that it can be somewhat unintuitive to use at times, so, this section of the documentation will serve as the "instruction manual" for HIDE Messaging.
 ## Connecting to peers:
 There are two ways to connect to another user, the first, and simpler of the two is done through the Contact menu. The alternative is done through the Connect menu. 
 ### Contact Menu:
@@ -62,7 +61,7 @@ Each of these commands can also be used by pressing their respective button in t
 ### Message Archives:
 As mentioned above, one can store encrypted archives of messages, these messages are encrypted with an AES256 key that's generated based on the user's password. To view these archive, one must go the "Etc." tab and select "Archive Viewer" then for the archive type, select "messages" and select the name of the user who they'd like to view archives of.<br>![Screenshot from 2023-05-25 11-20-32](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/ea01ced7-8cd4-4f92-993d-9ecfca7b016e)
 ### HIDE Logs:
-In addition to storing archives of chats when requested, HIDE additionally stores encrypted logs of all network activity from the app's usage, these logs can be accessed via the afformentioned Archive View by selecting "logs" instead of "messages" for the archive type.
+In addition to storing archives of chats when requested, HIDE automatically stores encrypted logs of all network activity from the app's usage, these logs can be accessed via the afformentioned Archive View by selecting "logs" instead of "messages" for the archive type.
 
 
 
