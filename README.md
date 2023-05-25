@@ -66,7 +66,7 @@ In addition to storing archives of chats when requested, HIDE automatically stor
 HIDE's user experience can, to an extent, be configured by the user, this can be done by going to the "Etc." tab and selecting "Settings."As of v0.1.0, there are three settings users can change:<br>
 - **Theme:** Changes the color scheme of the app, currently, there are two themes available, light, and dark. These themes corrospond to ttkthemes's "Breeze" and "Equilux themes respectively.
 - **Notification Sound:** This drop down allows the user to select any .wav or .mp3 file in the "media/notifications" folder, HIDE comes with three, however users are free to add their own. The notification sound will play when another user contacts you.
-- **Message Font:** This entry allows you to select which font messages, logs, and archives are displayed in.[](url)
+- **Message Font:** This entry allows you to select which font messages, logs, and archives are displayed in.<br>
 ![Screenshot from 2023-05-25 11-26-32](https://github.com/DrewRoss05/HIDEMessaging/assets/131941664/31cd15d1-a0b9-4fc2-8305-da47aa9db168)
 
 
