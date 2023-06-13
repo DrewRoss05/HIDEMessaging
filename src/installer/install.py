@@ -196,7 +196,7 @@ class MainFrame(ttk.Frame):
         if pw != self.confirm_pw.get():
             messagebox.showerror('Error', 'Your password does not match the confirmation')
             return
-        if not re.match('((?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!?#%~_=&@])){12}', password):
+        if not re.match('(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!?#%~_=&@])(?=.{12})', password):
             messagebox.showerror('Error', 'Please ensure your password has at least one of each of the following:\nUppercase Letters\nLowercase Letters\nNumbers\nSpecial Characters')
             return
         seed_file = generate_seed_file(seed)
