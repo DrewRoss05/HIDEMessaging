@@ -3,6 +3,7 @@ import zipfile
 import base64
 import secrets
 import json
+import re
 
 from tkinter import ttk, filedialog , messagebox
 from tkinter import StringVar, BooleanVar
@@ -195,28 +196,8 @@ class MainFrame(ttk.Frame):
         if pw != self.confirm_pw.get():
             messagebox.showerror('Error', 'Your password does not match the confirmation')
             return
-        if len(pw) < 12:
-            messagebox.showerror('Error', 'Please ensure your password is at least 12 characters long')
-        has_upper = False
-        has_lower = False
-        has_digit = False
-        has_other = False
-        valid = False
-        for char in pw:
-            if has_upper and has_lower and has_digit and has_other:
-                valid = True
-                break
-            if char.isupper():
-                has_upper = True
-            elif char.islower():
-                has_lower = True
-            elif char.isdigit():
-                has_digit = True
-            else:
-                has_other = True
-        if not valid:
-            messagebox.showerror('Error', 'Please ensure your password has at least one of each of the following:\nUppercase Letters\nLowercase Letters'\
-                                          '\nNumbers\nSpecial Characters')
+        if not re.match('((?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!?#%~_=&@])){12}', password):
+            messagebox.showerror('Error', 'Please ensure your password has at least one of each of the following:\nUppercase Letters\nLowercase Letters\nNumbers\nSpecial Characters')
             return
         seed_file = generate_seed_file(seed)
         options = {'username': uname, 'password': pw, 'seed_file': seed_file}
