@@ -1,6 +1,6 @@
 # HIDEMessaging
-A simple peer-to-peer secure messaging app
-<br><br><br>
+A simple peer-to-peer secure messaging app 
+THIS PROJECT IS NOW ARCHIVED! All future plans mentioned in this README are null and void, unless a fork is created.
 
 # Description
 HIDE Messsaging is a free and open-source peer-to-peer messaging application. Its underlying messaging protocl uses SHA256,
